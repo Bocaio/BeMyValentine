@@ -63,8 +63,8 @@ const yesBTNhandler = () => {
     centerHeader.classList.remove('text-white')
     centerHeader.classList.add('text-[#9A031E]')
     centerPic.src = 'https://i.pinimg.com/564x/3a/f2/67/3af267efc3d02bccbecfe21f4c9b9f13.jpg';
-    centerPic.classList.remove('h-1/4')
-    centerPic.classList.remove('w-2/6')
+    centerPic.classList.remove('w-1/5')
+    centerPic.classList.remove('w-1/5')
     centerPic.classList.add('w-3/6')
     centerDiv.removeChild(deleted)
 }
