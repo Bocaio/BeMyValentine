@@ -42,7 +42,7 @@ const begin = () => {
 const noBTNhandler = () => {
     count++;
     if(count <= noBTNARR.length - 1){
-    yesBTNsize += 25;
+    yesBTNsize += 20;
     noBTNsize -= 2;
     yesButton.style.fontSize = `${yesBTNsize}px`;
     noButton.style.fontSize = `${noBTNsize}px`;
