@@ -8,8 +8,8 @@ const deleted = document.querySelector('#deleted')
 const noBTNARR = [``,
     'Are you Sure?',
     `Don't do this to me`,
-    `You're breaking my heart!`,
-    `I'm crying...........`,
+    `breaking my heart?`,
+    `I'm crying....`,
     `Please think again!`,
     `You don't wanna be mine?`,
     `Bigger button is better nw!`,
@@ -29,8 +29,8 @@ const photoARR = [``,
 
 ]
 
-let yesBTNsize = 20;
-let noBTNsize = 20;
+let yesBTNsize = 15;
+let noBTNsize = 15;
 let count = 0;
 const begin = () => {
     yesButton.style.fontSize = `${yesBTNsize}px`;
@@ -42,7 +42,7 @@ const begin = () => {
 const noBTNhandler = () => {
     count++;
     if(count <= noBTNARR.length - 1){
-    yesBTNsize += 20;
+    yesBTNsize += 15;
     noBTNsize -= 2;
     yesButton.style.fontSize = `${yesBTNsize}px`;
     noButton.style.fontSize = `${noBTNsize}px`;
